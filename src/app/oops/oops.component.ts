@@ -73,23 +73,3 @@ class FloatingVehicle extends Vehicle{
 let ship = new FloatingVehicle({name:'ship', speed:'100'});
 // console.log(ship.hasSails);
 console.log(ship.displaySpeed())
-
-
-// ACCESS MODIFIERS
-class accessmodifiers
-{
-    constructor(protected ftname,public ltname)
-    {
-        
-    }
-}
-class accessNew extends accessmodifiers
-{
-    constructor(ftname, ltname)
-    {
-        super(ftname,ltname);
-        console.log(ftname,ltname);
-    }
-}
-
-var acobj = new accessNew('sdfdsf','manoj');
